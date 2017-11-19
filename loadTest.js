@@ -7,7 +7,7 @@ export let options = {
 };
 
 export default function() {
-  let res = http.get("https://accountone.ladbrokes.com/");
+  let res = http.get("https://google.com/");
   check(res, {
     "success": (r) => r.status == 200
   });
